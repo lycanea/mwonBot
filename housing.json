@@ -1,0 +1,10 @@
+[
+    {"price":null, "description":"Unlocks Housing."},
+    {"price":null, "description":"Adds barrels and a furnace. The barrels will clear their contents if the plot is empty."},
+    {"price":null, "description":"Adds three resource banks and a speed toggle for them. Also allows upgrading your housing with banked gold."},
+    {"price":null, "description":"Adds a reforge table, a device, and emergency grenades."},
+    {"price":null, "description":"Adds a second floor with an ender chest and brewing stand."},
+    {"price":null, "description":"Adds a private farm and merchant, as well as a second floor furnace. Also unlocks a new bank."},
+    {"price":null, "description":"Adds a shard converter and an anvil. Also unlocks a new bank."},
+    {"price":null, "description":"Adds a contraband trader, and upgrades the shard converter. Also unlocks a new bank."}
+]
