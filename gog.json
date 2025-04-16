@@ -7,7 +7,7 @@
     {"medals":null, "trinkets":null, "description":"The time you spend in jail is reduced by 3 seconds, and you can only be jailed at 8 health rather than at 10 health."},
     {"medals":null, "trinkets":null, "description":"You get +1 gold from selling melons."},
     {"medals":null, "trinkets":null, "description":"Strange brews give one extra effect and heal one extra heart."},
-    {"medals":null, "trinkets":null, "description":"You get more gold and golden carrots from collecting imports."},
+    {"medals":300, "trinkets":5, "description":"You get more gold and golden carrots from collecting imports."},
     {"medals":null, "trinkets":null, "description":"If you have your banks unlocked, you generate 1 enchanted melon slice for every 8 seconds you're on the plot."},
     {"medals":null, "trinkets":null, "description":"You have a +0.1 boost to sell price when you sell melons to the merchant."},
     {"medals":null, "trinkets":null, "description":"Stranger brews take 100 less seconds to make."},
