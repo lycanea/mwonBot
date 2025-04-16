@@ -10,8 +10,8 @@ module.exports = {
 		const level = interaction.options.getInteger('level');
         const gogData = JSON.parse(fs.readFileSync('gog.json', 'utf-8'));
 
-        if (gogData.hasOwnProperty(level+1)) {
-            const info = gogData[level+1];
+        if (gogData.hasOwnProperty(level-1)) {
+            const info = gogData[level-1];
             const embed = new EmbedBuilder()
 				.setTitle(`Gift of Gold Level ${level}`)
 				.addFields(
