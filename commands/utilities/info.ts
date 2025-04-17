@@ -11,9 +11,9 @@ module.exports = {
 			.addFields(
 				{ name: 'Main features', value: `- Currency Conversion (convert between gold, shards and cshards)\n- Information on Gift of Gold levels, trophies and housing levels (includes prices and effects)\n- Information on all enchantments and reforges`, inline: true }
 			)
-			.setColor('16777048')
+			.setColor(16777048)
 			.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 
-		await interaction.editReply({ content: '', embeds: [embed] });
+		await interaction.reply({ content: '', embeds: [embed] });
 	},
 };
