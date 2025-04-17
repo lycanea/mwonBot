@@ -32,7 +32,8 @@ module.exports = {
 					{ name: 'Shard Count', value: `${shards}`, inline: true },
 					{ name: 'Remaining Gold', value: `${remainder}`, inline: true }
 				)
-				.setColor('Yellow');
+				.setColor('Yellow')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		} else if (subcommand === "cshards") {
 			const cshards = Math.floor(amount / 4096);
@@ -43,7 +44,8 @@ module.exports = {
 					{ name: 'CShard Count', value: `${cshards}`, inline: true },
 					{ name: 'Remaining Gold', value: `${remainder}`, inline: true }
 				)
-				.setColor('Yellow');
+				.setColor('Yellow')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		} else if (subcommand === "compact") {
 			const cshards = Math.floor(amount / 4096);
@@ -56,7 +58,8 @@ module.exports = {
 					{ name: 'Shards', value: `${shards}`, inline: true },
 					{ name: 'Remaining Gold', value: `${remainder}`, inline: true }
 				)
-				.setColor('Yellow');
+				.setColor('Yellow')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		}
 	},

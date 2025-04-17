@@ -31,7 +31,8 @@ module.exports = {
 				//     { name: 'Trinket Cost', value: `${info['trinkets'] ?? "Data not collected"}`, inline: true },
 				// )
 				.setDescription(`${queriedEnchant['description'] ?? "Data not collected"}`)
-				.setColor('Blue');
+				.setColor('Blue')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		} else {
 			await interaction.reply(`either this enchant doesnt exist or i just dont know about it yet`);

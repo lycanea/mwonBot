@@ -18,7 +18,8 @@ module.exports = {
 				{ name: 'WebSocket Ping', value: `${wsPing} ms`, inline: true },
 				{ name: 'API Latency', value: `${apiLatency} ms`, inline: true }
 			)
-			.setColor('Green');
+			.setColor('Green')
+			.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 
 		await interaction.editReply({ content: '', embeds: [embed] });
 	},

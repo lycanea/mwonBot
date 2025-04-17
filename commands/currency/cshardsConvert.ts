@@ -25,7 +25,8 @@ module.exports = {
 				.addFields(
 					{ name: 'Gold', value: `${gold}`, inline: true }
 				)
-				.setColor('Yellow');
+				.setColor('Yellow')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		} else if (subcommand === "shards") {
 			const shards = amount * 64;
@@ -34,7 +35,8 @@ module.exports = {
 				.addFields(
 					{ name: 'Shards', value: `${shards}`, inline: true }
 				)
-				.setColor('Yellow');
+				.setColor('Yellow')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		}
 	},

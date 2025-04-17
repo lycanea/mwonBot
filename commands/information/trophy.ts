@@ -18,7 +18,8 @@ module.exports = {
 					{ name: 'Level Additions', value: `${info['additions'] ?? "Data not collected"}`, inline: true },
 				)
                 .setDescription(`Total Buff:\n${info['totalbuff'] ?? "Data not collected"}`)
-				.setColor('Blue');
+				.setColor('Blue')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
         } else {
             await interaction.reply(`I don't have data on trophy ${trophy}. (come dm me if you do :3)`);

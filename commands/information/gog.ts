@@ -19,7 +19,8 @@ module.exports = {
                     { name: 'Trinket Cost', value: `${info['trinkets'] ?? "Data not collected"}`, inline: true },
 				)
                 .setDescription(`${info['description'] ?? "Data not collected"}`)
-				.setColor('Blue');
+				.setColor('Blue')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
         } else {
             await interaction.reply(`I don't have data on level ${level}. (come dm me if you do :3)`);

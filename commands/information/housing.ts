@@ -18,7 +18,8 @@ module.exports = {
 					{ name: 'Gold Cost', value: `${info['price'] ?? "Data not collected"}`, inline: true },
 				)
                 .setDescription(`${info['description'] ?? "Data not collected"}`)
-				.setColor('Blue');
+				.setColor('Blue')
+				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
         } else {
             await interaction.reply(`umm... this level doesnt exist (atleast i think so?)`);
