@@ -8,7 +8,7 @@ module.exports = {
         .addIntegerOption(option => option.setName('trophy').setDescription('The trophy to retrieve information about').setRequired(true)),
 	async execute(interaction) {
 		const trophy = interaction.options.getInteger('trophy');
-        const trophyData = JSON.parse(fs.readFileSync('trophy.json', 'utf-8'));
+        const trophyData = JSON.parse(fs.readFileSync('data/trophy.json', 'utf-8'));
 
         if (trophyData.hasOwnProperty(trophy-1)) {
             const info = trophyData[trophy-1];

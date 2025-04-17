@@ -8,7 +8,7 @@ module.exports = {
         .addIntegerOption(option => option.setName('level').setDescription('The level to retrieve information about').setRequired(true)),
 	async execute(interaction) {
 		const level = interaction.options.getInteger('level');
-        const gogData = JSON.parse(fs.readFileSync('gog.json', 'utf-8'));
+        const gogData = JSON.parse(fs.readFileSync('data/gog.json', 'utf-8'));
 
         if (gogData.hasOwnProperty(level-1)) {
             const info = gogData[level-1];

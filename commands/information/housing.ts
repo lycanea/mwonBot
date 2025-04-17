@@ -8,7 +8,7 @@ module.exports = {
         .addIntegerOption(option => option.setName('level').setDescription('The level to retrieve information about').setRequired(true)),
 	async execute(interaction) {
 		const level = interaction.options.getInteger('level');
-        const housingData = JSON.parse(fs.readFileSync('housing.json', 'utf-8'));
+        const housingData = JSON.parse(fs.readFileSync('data/housing.json', 'utf-8'));
 
         if (housingData.hasOwnProperty(level-1)) {
             const info = housingData[level-1];

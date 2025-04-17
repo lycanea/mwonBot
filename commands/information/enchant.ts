@@ -1,7 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 
-const enchantData = JSON.parse(fs.readFileSync('enchants.json', 'utf-8'));
+const enchantData = JSON.parse(fs.readFileSync('data/enchants.json', 'utf-8'));
 
 const enchantChoices = Object.keys(enchantData).map(key => ({
 	name: key.charAt(0).toUpperCase() + key.slice(1), // Capitalize for display
@@ -20,7 +20,7 @@ module.exports = {
 		),
 	async execute(interaction) {
 		const enchant = interaction.options.getString('enchant');
-		const enchantData = JSON.parse(fs.readFileSync('enchants.json', 'utf-8'));
+		const enchantData = JSON.parse(fs.readFileSync('data/enchants.json', 'utf-8'));
 
 		const queriedEnchant = enchantData[enchant]
 		if (queriedEnchant) {
