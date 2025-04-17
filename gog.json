@@ -1,7 +1,7 @@
 [
     {"medals":10, "trinkets":1, "description":"Unlocks housing tiers 4 and higher."},
     {"medals":25, "trinkets":1, "description":"Gives +1 melon per melon broken."},
-    {"medals":50, "trinkets":null, "description":"Increases the speed of faster cooking and faster selling from 5 to 8."},
+    {"medals":50, "trinkets":2, "description":"Increases the speed of faster cooking and faster selling from 5 to 8."},
     {"medals":75, "trinkets":2, "description":"You get more gold from jailing players that have contraband on them."},
     {"medals":100, "trinkets":3, "description":"Deposits of gold into the city bank adds an extra 0.25 gold to the bank for free."},
     {"medals":150, "trinkets":null, "description":"The time you spend in jail is reduced by 3 seconds, and you can only be jailed at 8 health rather than at 10 health."},
