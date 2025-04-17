@@ -1,0 +1,11 @@
+{
+    "harvest": {
+        "description": "Grants a +55% chance to get an additional melon when breaking one for each level of enchantment."
+    },
+    "fleetfoot": {
+        "description": "When you get hit while holding a item with this enchantment, you gain a +15% speed bonus for each level of enchantment for 8 seconds."
+    },
+    "ultrasmelt": {
+        "description": "Grants an 8% chance to autosmelt enchanted melons into super enchanted melons upon breaking a melon for each level of enchantment.\n\nAlso speeds up your autosmelter by 25% for each level of enchantment"
+    }
+}
