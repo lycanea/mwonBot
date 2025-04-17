@@ -8,6 +8,8 @@ This repository also includes all data manually scraped from melon king that the
 
 ## Hosting yourself:
 
+this is all written in typescript and its ran with bun so uhh... use that lmao :3
+
 To install dependencies:
 
 ```bash
@@ -17,5 +19,5 @@ bun install
 To run:
 
 ```bash
-bun run bot.ts
+bun run start
 ```

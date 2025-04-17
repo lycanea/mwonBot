@@ -1,6 +1,6 @@
 {
   "name": "mwonbot",
-  "module": "index.ts",
+  "module": "bot.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "discord.js": "^14.18.0"
+  },
+  "scripts": {
+    "start": "bun run bot.ts"
   }
 }
