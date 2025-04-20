@@ -6,5 +6,6 @@
     {"price":1000, "description":"Adds a second floor with an ender chest and brewing stand."},
     {"price":2500, "description":"Adds a private farm and merchant, as well as a second floor furnace. Also unlocks a new bank."},
     {"price":7500, "description":"Adds a shard converter and an anvil. Also unlocks a new bank."},
-    {"price":null, "description":"Adds a contraband trader, and upgrades the shard converter. Also unlocks a new bank."}
+    {"price":15000, "description":"Adds a contraband trader, and upgrades the shard converter. Also unlocks a new bank."},
+    {"price":30000, "description":"Upgrades the shard converter again, allowing access to the shadow forge."}
 ]
