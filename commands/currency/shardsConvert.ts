@@ -1,4 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const fs = require('fs');
+
+const metaData = JSON.parse(fs.readFileSync('meta.json', 'utf-8'));
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -26,7 +29,7 @@ module.exports = {
 					{ name: 'Gold', value: `${gold}`, inline: true },
 				)
 				.setColor('Yellow')
-				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
+				.setFooter({ text: `Made with love by lycanea (Version ${metaData.version})`, icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		} else if (subcommand === "cshards") {
 			const cshards = Math.floor(amount / 64);
@@ -38,7 +41,7 @@ module.exports = {
 					{ name: 'Remaining Shards', value: `${remainder}`, inline: true }
 				)
 				.setColor('Yellow')
-				.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
+				.setFooter({ text: `Made with love by lycanea (Version ${metaData.version})`, icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
 		}
 	},

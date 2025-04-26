@@ -1,4 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const fs = require('fs');
+
+const metaData = JSON.parse(fs.readFileSync('meta.json', 'utf-8'));
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -12,7 +15,7 @@ module.exports = {
 				{ name: 'Main features', value: `- Currency Conversion (convert between gold, shards and cshards)\n- Information on Gift of Gold levels, trophies and housing levels (includes prices and effects)\n- Information on all enchantments and reforges`, inline: true }
 			)
 			.setColor(16777048)
-			.setFooter({ text: "Made with love by lycanea (Version 0.1.0)", icon_url: "https://lycanea.dev/avatar.png"});
+			.setFooter({ text: `Made with love by lycanea (Version ${metaData.version})`, icon_url: "https://lycanea.dev/avatar.png"});
 
 		await interaction.reply({ content: '', embeds: [embed] });
 	},
