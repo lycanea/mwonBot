@@ -41,7 +41,7 @@
     {"medals":1850, "trinkets":220, "description":"Your enchanting discount is improved from 10% to 20%."},
     {"medals":1900, "trinkets":235, "description":"All players have a 30% chance for a +0.1 sell price bonus while you are online. This chance caps at 100% when 4 or more people with this upgrade are online."},
     {"medals":1950, "trinkets":235, "description":"Increases the speed of faster cooking and faster selling from 8 to 12."},
-    {"medals":2000, "trinkets":250, "description":"Most enchants have their percentages boosted by 1.15x."},
+    {"medals":2000, "trinkets":250, "description":"Most enchants have their percentages boosted by 1.15x. Also unlocks Milestone Crates."},
     {"medals":2000, "trinkets":"Not Applicable", "description":"You gain access to @bank, which lets you carry up to 10000 gold."},
     {"medals":2000, "trinkets":"Not Applicable", "description":"You gain access to @forge, a powerful menu with easy access to a lot of features."}
 ]
