@@ -12,7 +12,7 @@ const enchantChoices = Object.keys(enchantData).map(key => ({
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('enchant')
-		.setDescription('Lookup information on a hoe enchantment')
+		.setDescription('Lookup information on an enchantment')
 		.addStringOption(option =>
 			option.setName('enchant')
 				.setDescription('The enchantment to query')
