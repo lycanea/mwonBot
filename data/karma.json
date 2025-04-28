@@ -1,0 +1,40 @@
+[
+    {"name":"Bronze I", "price":0, "unlocks": [
+        {"type":"purchaseable", "id":"knights_crystal", "cost":4, "cost_type": "shards"}
+    ]},
+    {"name":"Bronze II", "price":10, "unlocks": [
+        {"type": "guard_ability", "id": "contraband_detector"}
+    ]},
+    {"name":"Silver I", "price":25, "unlocks": [
+        {"type": "guard_role", "id": "sniper"}
+    ]},
+    {"name":"Silver II", "price":50, "unlocks": [
+        {"type": "guard_ability", "id": "strict_paperwork"},
+        {"type": "guard_ability", "id": "sturdy_handcuffs"}
+    ]},
+    {"name":"Prismarine I", "price":75, "unlocks": [
+        {"type": "guard_role", "id": "banneret"}
+    ]},
+    {"name":"Prismarine II", "price":100, "unlocks": [
+        {"type": "guard_ability", "id": "cardio_training"},
+        {"type": "guard_ability", "id": "bulky_physique"}
+    ]},
+    {"name":"Gold I", "price":150, "unlocks": [
+        {"type": "guard_role", "id": "accountant"}
+    ]},
+    {"name":"Gold II", "price":200, "unlocks": [
+        {"type": "guard_ability", "id": "melon_squeeze"},
+        {"type": "guard_ability", "id": "purification_methods"}
+    ]},
+    {"name":"Diamond", "price":250, "unlocks": [
+        {"type": "purchaseable", "id": "guard_vault_warp_key"},
+        {"type": "permanent_buff", "id": "knight_buff"},
+        {"type": "permanent_buff", "id": "secondary_guard_ability"},
+        {"type": "guard_role", "id": "guard_specialist_farmer"},
+        {"type": "guard_role", "id": "guard_specialist_infiltrator"},
+        {"type": "guard_role", "id": "guard_specialist_defender"}
+    ]},
+    {"name":"???", "hidden": "true", "price":300, "unlocks": [
+        {"type": "requirement", "id": "tertiary_guard_karma_requirement"}
+    ]}
+]
