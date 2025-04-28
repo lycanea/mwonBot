@@ -19,5 +19,8 @@
     },
     "offroader": {
         "description": "When farming at a farm that isn't the main one, you gain a +45% chance for 2 extra melons per melon for each level of enchantment."
+    },
+    "defender": {
+        "description": "You take 5% less damage when held, plus an additional 2% less for each level of enchantment past the first."
     }
 }
