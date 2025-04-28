@@ -1,0 +1,63 @@
+{
+    "knight": {
+        "name": "Knight",
+        "description": "Gets a lower jail cooldown.",
+        "requirements": []
+    },
+    "merchantman": {
+        "name": "Merchantman",
+        "description": "Can toggle between being a portable furnace or portable merchant. Gets a super-tool for farming.",
+        "requirements": [
+            {"type": "monarch_upgrade", "value": "unlock_merchantman"}
+        ]
+    },
+    "blacksmith": {
+        "name": "Blacksmith",
+        "description": "Has heightened manipulation over reforges, and can give swords to players without dropping them.",
+        "requirements": [
+            {"type": "monarch_upgrade", "value": "unlock_blacksmith"}
+        ]
+    },
+    "sniper": {
+        "name": "Sniper",
+        "description": "Has a gun and can throw grenades and flashbangs",
+        "requirements": [
+            {"type": "karma", "value": 25}
+        ]
+    },
+    "banneret": {
+        "name": "Banneret",
+        "description": "Passively and actively buff guards, including themselves.",
+        "requirements": [
+            {"type": "karma", "value": 75}
+        ]
+    },
+    "accountant": {
+        "name": "Accountant",
+        "description": "Gets passive buffs to funding and active buffs to farming.",
+        "requirements": [
+            {"type": "karma", "value": 150}
+        ]
+    },
+    "guard_specialist_farmer": {
+        "name": "Specialist",
+        "description": "Has an extra guard ability and an additional special guard ability.",
+        "requirements": [
+            {"type": "karma", "value": 250}
+        ]
+    },
+    "guard_specialist_infiltrator": {
+        "name": "Specialist",
+        "description": "Has an extra guard ability and an additional special guard ability.",
+        "requirements": [
+            {"type": "karma", "value": 250}
+        ]
+    },
+    "guard_specialist_defender": {
+        "name": "Specialist",
+        "description": "Has an extra guard ability and an additional special guard ability.",
+        "requirements": [
+            {"type": "karma", "value": 250}
+        ]
+    }
+}
