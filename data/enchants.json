@@ -7,5 +7,17 @@
     },
     "ultrasmelt": {
         "description": "Grants an 8% chance to autosmelt enchanted melons into super enchanted melons upon breaking a melon for each level of enchantment.\n\nAlso speeds up your autosmelter by 25% for each level of enchantment"
+    },
+    "green_thumb": {
+        "description": "Grants a 35% chance for broken melons to spawn melons in the main farm for each level of enchantment."
+    },
+    "retribution": {
+        "description": "When you are a guard, you have a +25% chance to get an extra melon when farming. You also get an additional +0.1% chance to that for each Karma you have (up to 1000). Both of these are increased for each level of enchantment."
+    },
+    "smashing": {
+        "description": "Grants a 40% chance for broken melons to instantly add gold to your bank for each level of enchantment."
+    },
+    "offroader": {
+        "description": "When farming at a farm that isn't the main one, you gain a +45% chance for 2 extra melons per melon for each level of enchantment."
     }
 }
