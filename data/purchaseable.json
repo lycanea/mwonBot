@@ -3,7 +3,7 @@
         "name": "Knight's Crystal",
         "item_type": "reforge_crystal",
         "sources": [
-            {"type": "sign_purchase", "location": [-896, 51, -4087], "requirements": [
+            {"type": "sign_purchase", "location": [-896, 51, -4087], "purchaseType": "shards", "price": 4, "requirements": [
                 {"type": "karma", "value": 0},
                 {"type": "player_state", "value": "guard"}
             ]}
