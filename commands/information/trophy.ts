@@ -24,7 +24,7 @@ module.exports = {
 				.setFooter({ text: `Made with love by lycanea (Version ${metaData.version})`, icon_url: "https://lycanea.dev/avatar.png"});
 			await interaction.reply({ embeds: [embed] });
         } else {
-            await interaction.reply(`I don't have data on trophy ${trophy}. (come dm me if you do :3)`);
+            await interaction.reply(`I don't have data on trophy ${trophy}. (... why do you keep asking for stuff that doesnt exist?)`);
         }
 	},
 };
