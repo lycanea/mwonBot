@@ -1,0 +1,30 @@
+{
+    "contraband_detector": {
+        "name": "Contraband Detector",
+        "description": "Hit a player with this to check if they have swords, grenades, or flashbangs."
+    },
+    "sturdy_handcuffs": {
+        "name": "Sturdy Handcuffs",
+        "description": "You can jail players at 5 HP higher than usual."
+    },
+    "strict_paperwork": {
+        "name": "Strict Paperwork",
+        "description": "Increases jail time by 11 seconds."
+    },
+    "cardio_training": {
+        "name": "Cardio Training",
+        "description": "Your walkspeed is increased by 25%."
+    },
+    "bulky_physique": {
+        "name": "Bulky Physique",
+        "description": "You get an additional 4 maximum health."
+    },
+    "melon_squeeze": {
+        "name": "Melon Squeeze",
+        "description": "You get an extra melon per melon."
+    },
+    "purification_methods": {
+        "name": "Purification Methods",
+        "description": "You have a 50% chance to gain extra gold when selling."
+    }
+}
