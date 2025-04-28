@@ -34,7 +34,7 @@
         {"type": "guard_role", "id": "guard_specialist_infiltrator"},
         {"type": "guard_role", "id": "guard_specialist_defender"}
     ]},
-    {"name":"???", "hidden": "true", "price":300, "unlocks": [
+    {"name":"???", "hidden": true, "price":300, "unlocks": [
         {"type": "requirement", "id": "tertiary_guard_karma_requirement"}
     ]}
 ]
