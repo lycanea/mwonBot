@@ -1,0 +1,25 @@
+{
+    "knights_crystal": {
+        "name": "Knight's Crystal",
+        "item_type": "reforge_crystal",
+        "sources": [
+            {"type": "sign_purchase", "location": [-896, 51, -4087], "requirements": [
+                {"type": "karma", "value": 0},
+                {"type": "player_state", "value": "guard"}
+            ]}
+        ],
+        "uses": [
+            {"type": "anvil_merge", "result": "knights_sword", "with": [
+                {"id": "defender_sword", "count": 2}
+            ]}
+        ]
+    },
+    "defender_sword": {
+        "name": "Defender's Sword",
+        "item_type": "sword",
+        "sources": [
+            {"type": "sword_reforging"},
+            {"type": "standard_forge"}
+        ]
+    }
+}
