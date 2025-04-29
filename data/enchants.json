@@ -22,5 +22,11 @@
     },
     "defender": {
         "description": "You take 5% less damage when held, plus an additional 2% less for each level of enchantment past the first."
+    },
+    "light": {
+        "description": "Grants 8% movement speed when held for each level of enchantment."
+    },
+    "treasure_grove": {
+        "description": "Grants a +0.3% searching bonus for each level of enchantment."
     }
 }
