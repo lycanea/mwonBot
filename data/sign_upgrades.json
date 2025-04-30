@@ -1,6 +1,7 @@
 {
     "example_upgrade": {
         "name": "Example Upgrade",
+        "price": 24,
         "location": [123,123,123],
         "description": "blah blah blah lorum ipsum or whatever",
         "prereqs": []

@@ -8,9 +8,9 @@ const upgradeData = JSON.parse(fs.readFileSync('data/sign_upgrades.json', 'utf-8
 const metaData = JSON.parse(fs.readFileSync('meta.json', 'utf-8'));
 
 const upgradeChoices = Object.keys(upgradeData).map(key => ({
-	name: key.charAt(0).toUpperCase() + key.slice(1), // Capitalize for display
+	name: upgradeData[key]['name'],
 	value: key
-}));
+}))
 
 module.exports = {
 	data: new SlashCommandBuilder()
