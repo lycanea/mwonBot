@@ -19,12 +19,17 @@ This repository also includes all data manually scraped from melon king that the
 - [x] Karma
     - [x] `/karma [number]` command
     - [x] Full Karma/Guard Data
-- [ ] Sign Upgrades
+- [/] Sign Upgrades
     - [ ] `/upgrade [name]` command
-    - [ ] Full Sign Data
-        - [ ] Beginnings
-- [ ] Item Lookup
-
+    - [/] Full Sign Data
+        - [/] Beginnings
+- [/] Item Lookup
+    - [ ] `/item [name]` command
+        - [ ] Item Valuation
+        - [ ] Command Submenu navigation
+        - [ ] Item Acquiring and Item Uses Subpages
+    - [ ] Automatically Generated "How to get" Guides
+    - [/] Full Item Data
 
 ### Hosting yourself:
 
