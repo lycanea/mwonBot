@@ -6,7 +6,27 @@ This bot includes various commands to convert currencies, lookup items and upgra
 
 This repository also includes all data manually scraped from melon king that the bot depends on, if you have a project that needs this data, please use it! (and preferably give some credit :3)
 
-## Hosting yourself:
+## Development
+### Planned Features:
+- [x] Trophies
+    - [x] `/trophy [number]` command
+    - [x] Human Readable Trophy Data
+    - [ ] Programmatic Trophy Data
+- [x] Gift of Gold
+    - [x] `/gog [number]` command
+    - [x] Human Readable Gog Data
+    - [ ] Programmatic Gog Data
+- [x] Karma
+    - [x] `/karma [number]` command
+    - [x] Full Karma/Guard Data
+- [ ] Sign Upgrades
+    - [ ] `/upgrade [name]` command
+    - [ ] Full Sign Data
+        - [ ] Beginnings
+- [ ] Item Lookup
+
+
+### Hosting yourself:
 
 this is all written in typescript and its ran with bun so uhh... use that lmao :3
 
