@@ -9,16 +9,16 @@ This repository also includes all data manually scraped from melon king that the
 ## Development
 ### Planned Features:
 - 🚧(66%) Trophies
-    - [x] `/trophy [number]` command
-    - [x] Human Readable Trophy Data
+    - ✅ `/trophy [number]` command
+    - ✅ Human Readable Trophy Data
     - [ ] Programmatic Trophy Data
 - 🚧 (66%) Gift of Gold
-    - [x] `/gog [number]` command
-    - [x] Human Readable Gog Data
+    - ✅ `/gog [number]` command
+    - ✅ Human Readable Gog Data
     - [ ] Programmatic Gog Data
 - ✅ Karma
-    - [x] `/karma [number]` command
-    - [x] Full Karma/Guard Data
+    - ✅ `/karma [number]` command
+    - ✅ Full Karma/Guard Data
 - 🚧(1%) Sign Upgrades
     - [ ] `/upgrade [name]` command
     - 🚧(1%) Full Sign Data
