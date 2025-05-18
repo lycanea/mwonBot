@@ -28,5 +28,8 @@
     },
     "treasure_grove": {
         "description": "Grants a +0.3% searching bonus for each level of enchantment."
+    },
+    "prospector": {
+        "description": "Grants a +10% chance to draw from a better item pool when searching for each level of enchantment."
     }
 }
